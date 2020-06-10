@@ -13,10 +13,10 @@ long int longintType;
 long long int longlongintType;
 float floatType;
 
-printf("Size of char: %ld bytes\n", sizeof(charType));
-printf("Size of int: %ld bytes\n", sizeof(intType));
-printf("Size of long int: %ld bytes\n", sizeof(longintType));
-printf("Size of long long int: %ld byte\n", sizeof(longlongintType));
-printf("Size of float: %ld byte\n", sizeof(floatType));
+printf("Size of char: %ld byte(s)\n", sizeof(charType));
+printf("Size of int: %ld byte(s)\n", sizeof(intType));
+printf("Size of long int: %ld byte(s)\n", sizeof(longintType));
+printf("Size of long long int: %ld byte(s)\n", sizeof(longlongintType));
+printf("Size of float: %ld byte(s)\n", sizeof(floatType));
 return (0);
 }
