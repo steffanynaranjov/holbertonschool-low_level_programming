@@ -8,28 +8,24 @@
 */
 int main(void)
 {
-int i, j;
-
-for (i = '0'; i <= '9'; i++)
+int x, y;
+for (x = '0'; x <= '8'; x++)
 {
-for (j = '0'; j <= '9'; j++)
+for (y = '1'; y <= '9'; y++)
 {
-if (i < j)
+if (!(x == y) && x < y)
 {
-putchar(i);
-putchar(j);
-
-if (i < '8' || j < '9')
-{
-putchar(44);
-putchar(32);
+putchar(x);
+putchar(y);
 }
-else
+
+if (!(x == '8' && y == '9') && !(x == y) && (x < y))
 {
+putchar(',');
+putchar(' ');
+}
+}
+}
 putchar('\n');
-}
-}
-}
-}
 return (0);
 }
