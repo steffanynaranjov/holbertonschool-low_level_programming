@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-char *s = "Holberton";
-while (*s) 
-_putchar(*(s++));
+char *c = "Holberton";
+while (*c) 
+_putchar(*(c++));
 _putchar('\n');
 return (0);
 }
