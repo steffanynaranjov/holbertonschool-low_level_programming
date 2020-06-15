@@ -6,7 +6,9 @@
 */
 int main(void)
 {
-char *s = "Holberton\n";
-while (*s) putchar(*s++);
+char *s = "Holberton";
+while (*s) 
+_putchar(*(s++));
+_putchar('\n');
 return (0);
 }
