@@ -23,7 +23,7 @@ else
 {
 _putchar(',');
 _putchar(' ');
-}	
+}
 if (y != 0 && mult >= 0 && mult < 10)
 {
 _putchar(' ');
@@ -35,7 +35,7 @@ if (mult >= 10 && mult < 100)
 _putchar(' ');
 _putchar(mult / 10 + '0');
 _putchar(mult % 10 + '0');
-}		
+}
 if (mult >= 100)
 {
 _putchar(mult / 100 + '0');
@@ -44,7 +44,7 @@ _putchar(mult % 10 + '0');
 }
 }
 _putchar('\n');
-}	
+}
 }
 else
 return;
