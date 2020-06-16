@@ -3,7 +3,7 @@
 * times_table - Prints the 9 times table, starting with 0
 * @void: The evaluated input
 *
-* Return: 0 Value 
+* Return: 0 Value
 */
 void times_table(void)
 {
@@ -16,17 +16,17 @@ for (m = 0; m <= 9; m++)
 mult = n * m;
 if (m == 0 && mult < 10)
 {
-_putchar((mult) + '0');
+_putchar((mult) +'0');
 }
 else if (n == 0 && m != 0)
 {
 _putchar(' ');
-_putchar((mult) + '0');
+_putchar((mult) +'0');
 }
 else if (mult < 10)
 {
 _putchar(' ');
-_putchar((mult) + '0');
+_putchar((mult) +'0');
 }
 else
 {
