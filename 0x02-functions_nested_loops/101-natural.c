@@ -9,16 +9,13 @@
 */
 int main(void)
 {
-int sum = 0;
-for (int i = 0; i < 1024; i += 5)
+int y, x = 1024;
+
+for (x = 0; x < 1024; x++)
 {
-sum += i;
+if (x % 3 == 0 || x % 5 == 0)
+y += x;
 }
-for (int i = 0; i < 1024; i += 3)
-{
-if (i % 5)
-sum += i;
-}
-printf("%d\n", sum);
+printf("%d\n", y);
 return (0);
 }
