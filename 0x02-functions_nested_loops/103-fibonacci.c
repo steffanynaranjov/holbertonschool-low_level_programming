@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
 * main - This print fibonacci numbers
 *
@@ -16,6 +15,6 @@ j = i - j;
 if (i % 2 == 0)
 sum += i;
 }
-printf("%d", sum);
+printf("%d\n", sum);
 
 }
