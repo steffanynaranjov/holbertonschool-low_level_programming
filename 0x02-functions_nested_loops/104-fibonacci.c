@@ -17,7 +17,7 @@ z = x;
 x = x + y;
 y = z;
 printf("%lu", y);
-if (w != 99)
+if (w != 51)
 printf(", ");
 }
 printf("\n");
