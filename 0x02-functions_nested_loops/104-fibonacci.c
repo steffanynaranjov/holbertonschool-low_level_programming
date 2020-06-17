@@ -8,16 +8,16 @@
 */
 int main(void)
 {
-unsigned long int x = 1, y = 1, z;
-int w;
+double x = 1, y = 1, z;
+int i;
 
-for (w = 2; w < 98; w++)
+for (i = 2; i < 98; i++)
 {
 z = x;
 x = x + y;
 y = z;
-printf("%lu", y);
-if (w != 97)
+printf("%.0f", y);
+if (i != 97)
 printf(", ");
 }
 printf("\n");
