@@ -8,16 +8,16 @@
 */
 int main(void)
 {
-unsigned long int suma = 1, a = 1, b;
-int i;
+unsigned long int x = 1, y = 1, z;
+int w;
 
-for (i = 2; i < 100; i++)
+for (w = 2; w < 100; w++)
 {
-b = suma;
-suma = suma + a;
-a = b;
-printf("%lu", a);
-if (i != 99)
+z = x;
+x = x + y;
+y = z;
+printf("%lu", y);
+if (w != 99)
 printf(", ");
 }
 printf("\n");
