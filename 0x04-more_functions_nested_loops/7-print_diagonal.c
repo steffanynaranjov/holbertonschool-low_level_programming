@@ -15,9 +15,9 @@ for (y = 0; y < n; y++)
 {
 for (z = 0; z < y; z++)
 _putchar(' ');
-_putchar(92);
-_putchar(10);
+_putchar('\\');
+_putchar('\n');
 }
 if (n < 1)
-_putchar(10);
+_putchar('\n');
 }
