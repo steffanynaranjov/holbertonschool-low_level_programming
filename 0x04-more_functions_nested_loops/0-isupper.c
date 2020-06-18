@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* _islower - Entry point
+* _isupper - Entry point
 * @c: character to check
 *
 * Return: 1 if c is uppercase
