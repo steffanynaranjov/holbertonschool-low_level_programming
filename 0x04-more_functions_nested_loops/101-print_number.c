@@ -12,7 +12,7 @@ unsigned int x;
 if (n < 0)
 {
 _putchar ('-');
-x = -n
+x = -n;
 }
 else
 {
