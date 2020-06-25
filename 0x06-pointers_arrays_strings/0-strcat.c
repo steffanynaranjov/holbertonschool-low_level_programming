@@ -17,7 +17,7 @@ x++;
 }
 while (src[y] != '\0')
 {
-dest[x] = scr[y];
+dest[x] = src[y];
 x++;
 y++;
 }
