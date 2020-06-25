@@ -16,13 +16,13 @@ while (dest[x] != '\0')
 {
 x++;
 }
-while (src [lengt_src] != '\0')
+while (src[lengt_src] != '\0')
 {
 lengt_src++;
 }
 while (y < n && y < lengt_src)
 {
-dest[x] = src [y];
+dest[x] = src[y];
 x++;
 y++;
 }
