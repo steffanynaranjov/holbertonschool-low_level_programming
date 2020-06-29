@@ -12,14 +12,14 @@ char *_strstr(char *haystack, char *needle)
 {
 while (*haystack != 0)
 {
-char *h = haystack;
-char *n = needle;
+char *stack = haystack;
+char *need = needle;
 
-while (*haystack == *n && *n != 0 && *haystack != 0)
-haystack++, n++;
-if (*n == 0)
-return (h);
-haystack = ++h;
+while (*haystack == *need && *need != 0 && *haystack != 0)
+haystack++, need++;
+if (*need == 0)
+return (stack);
+haystack = ++stack;
 }
 return (NULL);
 }
