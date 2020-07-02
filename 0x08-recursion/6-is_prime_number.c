@@ -1,10 +1,11 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
-* _divisor - Returns 1 if the input integer is a prime number
+* _numdiv - returns 1 if the input integer is a prime number
 * @nump: First input
 * @div: Second input divisor
 *
-* Description: Returns 1 if the input integer is a prime number
+* Description:Function that returns 1 if the input integer is a prime number
 * Return: Returns 1 if is a prime number 0 otherwise
 */
 int _numdiv(int div, int nump)
