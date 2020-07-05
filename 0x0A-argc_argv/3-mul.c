@@ -10,17 +10,19 @@
 */
 int main(int argc, char *argv[])
 {
-int n1, n2, multiply;
+int x, y, multiply;
 
 if (argc == 3)
 {
-n1 = atoi(argv[1]);
-n2 = atoi(argv[2]);
-multiply = n1 * n2;
+x = atoi(argv[1]);
+y = atoi(argv[2]);
+multiply = x * y;
 printf("%d\n", multiply);
 }
 else
 {
 printf("Error\n");
 return (1);
+}
+return (0);
 }
