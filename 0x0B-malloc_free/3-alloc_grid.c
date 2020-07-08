@@ -25,7 +25,7 @@ return (NULL);
 if (s == NULL)
 return (s);
 
-for (x = 0; x < height; x++)
+for (; x < height; x++)
 {
 
 s[x] = (int *) malloc(width * sizeof(int));
