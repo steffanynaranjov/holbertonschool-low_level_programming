@@ -21,7 +21,7 @@ if (av == NULL)
 return (NULL);
 
 for (; x < ac; x++)
-for (; av[x][y]; y++)
+for (y = 0; av[x][y]; y++)
 z++;
 
 conc = (char *) malloc((z + ac + 1) * sizeof(char));
