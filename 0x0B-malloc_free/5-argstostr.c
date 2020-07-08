@@ -20,7 +20,7 @@ return (NULL);
 if (av == NULL)
 return (NULL);
 
-for (; x < ac; x++)
+for (x = 0; x < ac; x++)
 for (y = 0; av[x][y]; y++)
 z++;
 
@@ -30,7 +30,7 @@ conct = conc;
 if (conc == NULL)
 return (NULL);
 
-for (; x < ac; x++)
+for (x = 0; x < ac; x++)
 {
 while (*av[x])
 {
