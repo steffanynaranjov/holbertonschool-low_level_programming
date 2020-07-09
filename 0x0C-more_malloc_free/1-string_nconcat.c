@@ -12,8 +12,8 @@
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-char *conc, *conct;
-unsigned int x, y;
+char *conc = NULL, *conct = NULL;
+unsigned int x = 0, y = 0;
 
 s1 = s1 ? s1 : "";
 s2 = s2 ? s2 : "";
