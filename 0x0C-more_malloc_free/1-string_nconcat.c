@@ -2,22 +2,23 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * string_nconcat - Concatenates two strings
- * @s1: Firts input char pointer
- * @s2: Second input char pointer
- * @n: n bytes of s2
- *
- * Description: Concatenates two strings
- * Return: string concated
- */
+* string_nconcat - Concatenates two strings
+* @s1: Firts input char pointer
+* @s2: Second input char pointer
+* @n: n bytes of s2
+*
+* Description: function that concatenates two strings
+* Return: string concated
+*/
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *conc, *conct;
 unsigned int x, y;
 
-s1 = s1 ? s1 : "";
-s2 = s2 ? s2 : "";
-
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
 
 for (y = 0; s1[y]; y++)
 x++;
