@@ -17,10 +17,10 @@ int x = 0, y = 0;
 if (new_dog == NULL)
 return (new_dog);
 
-for (; owner[x]; x++)
+for (x = 0; owner[x]; x++)
 ;
 
-for (; name[y]; y++)
+for (y = 0; name[y]; y++)
 ;
 
 (*new_dog).owner = malloc((x + 1) * sizeof(char));
