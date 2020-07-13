@@ -13,7 +13,7 @@ typedef struct dog
 char *name;
 float age;
 char *owner;
-};
+} dog;
 
 typedef dog dog_t;
 
@@ -23,4 +23,4 @@ dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 int _putchar(char c);
 
-#endif /* _DOD_H */
+#endif /* _DOG_H */
