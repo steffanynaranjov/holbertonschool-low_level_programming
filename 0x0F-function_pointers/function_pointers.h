@@ -1,7 +1,5 @@
 #ifndef _FUNCTION_P_H
 #define _FUNCTION_P_H
-
-#include <stdio.h>
 /**
 * struct op - New type
 *
