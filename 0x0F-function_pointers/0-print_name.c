@@ -1,7 +1,7 @@
 /**
 * print_name - Prints a name
 * @name: name
-* @f: P funtion
+* @f: Pointer funtion
 *
 * Description: Function that prints a name
 * Return: 0
