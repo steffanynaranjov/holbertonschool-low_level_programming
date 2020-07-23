@@ -98,5 +98,4 @@ typedef struct list_s
   </h4>
   <p>Write a 64-bit program in assembly that prints <code>Hello, Holberton</code>, followed by a new line.</p>
 
- <a href="https://github.com/steffanynaranjov">Steffany Naranjo Vargas</a>. Student of <a href="https://www.holbertonschool.com/"> Holbe\
-rton School</a>
+ <a href="https://github.com/steffanynaranjov">Steffany Naranjo Vargas</a>. Student of <a href="https://www.holbertonschool.com/"> Holberton School</a>
