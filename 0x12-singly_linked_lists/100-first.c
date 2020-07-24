@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "lists.h"
 /**
  * Start_up - print before main
  * @void: empty par
