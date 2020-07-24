@@ -1,9 +1,9 @@
 #include "lists.h"
 /**
  * Start_up - print before main
- *
+ * @void: empty par
  * Description: print a string before the main
- * Return: number of elements
+ * Return: 0
  */
 void Start_up(void)
 {
