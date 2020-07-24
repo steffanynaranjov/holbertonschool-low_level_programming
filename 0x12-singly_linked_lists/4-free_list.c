@@ -4,19 +4,19 @@
  * @head: pointer head
  *
  * Description: frees a linked list
- * Return: number of elements
+ * Return: 0
  */
 void free_list(list_t *head)
 {
-	list_t *t = NULL;
+	list_t *tmp = NULL;
 
-	t = head;
+	tmp = head;
 
-	while (t)
+	while (tmp)
 	{
-		free(t->str)
-			free(t);
-		t = t->next;
+		free(tmp->str);
+			free(tmp);
+		tmp = tmp->next;
 	}
-	free(t);
+	free(tmp);
 }
