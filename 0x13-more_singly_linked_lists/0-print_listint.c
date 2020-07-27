@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * struct listint_s - singly linked list
+ * print_listint - print a list
  * @h: integer
  *
  * Description: singly linked list node structure
