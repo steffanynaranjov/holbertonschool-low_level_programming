@@ -1,10 +1,9 @@
 #include "lists.h"
 /**
- * add_nodeint - add new node
+ * sum_listint - add new node
  * @head: node head
- * @n: integer
  * Description: Add a new node
- * return: New node
+ * Return: New node
  */
 int sum_listint(listint_t *head)
 {
@@ -15,5 +14,5 @@ int sum_listint(listint_t *head)
 		add += head->n;
 		head = head->next;
 	}
-	return(add);
+	return (add);
 }
