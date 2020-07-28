@@ -3,7 +3,7 @@
  * pop_listint - add new node
  * @head: node head
  * Description: Add a new node
- * return: New node
+ * Return: New node
  */
 int pop_listint(listint_t **head)
 {
