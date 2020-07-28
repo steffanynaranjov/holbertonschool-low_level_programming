@@ -4,7 +4,7 @@
  * @h: integer
  *
  * Description: singly linked list node structure
- * for Holberton project
+ * Return: the number of nodes
  */
 size_t print_listint(const listint_t *h)
 {
