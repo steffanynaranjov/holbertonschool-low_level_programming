@@ -9,7 +9,7 @@ void _print_binary_(unsigned long int n)
 {
 	if (n)
 	{
-		_print_binary(n >> 1);
+		_print_binary_(n >> 1);
 		_putchar((n & 1) + '0');
 	}
 }
@@ -22,7 +22,7 @@ void _print_binary_(unsigned long int n)
 void print_binary(unsigned long int n)
 {
 	if (n)
-		_print_binary(n);
+		_print_binary_(n);
 	else
 		_putchar('0');
 }
