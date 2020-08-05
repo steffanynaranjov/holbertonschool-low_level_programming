@@ -32,7 +32,7 @@ int main(int argc, char **argv)
 {
 	int fd_from, fd_to, r;
 	ssize_t n, w;
-	char buffer[1024];
+	char buffer[SIZE];
 
 	if (argc != 3)
 	{
@@ -47,7 +47,7 @@ int main(int argc, char **argv)
 	n = 1024;
 	while (n == 1024)
 	{
-		n = read(fd_from, buffer, 1024);
+		n = read(fd_from, buffer, SIZE);
 		if (n == -1)
 			print_error(-1, 0, argv);
 		w = write(fd_to, buffer, n);
