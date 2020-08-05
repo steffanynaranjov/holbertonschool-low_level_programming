@@ -34,9 +34,8 @@ int file_validation(char **argv, int *fd_from, int *fd_to)
 
 	return (1);
 }
-
 /**
- * main - Print the name
+ * main - copy a file
  * @argc: input int argument
  * @argv: char argument of string
  * Description: Copy a file
@@ -61,6 +60,7 @@ int main(int argc, char **argv)
 				print_error("Error: Can't write to %s\n",
 				argv[1], 99);
 		}
+
 		if (close(fd_from) == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n",
