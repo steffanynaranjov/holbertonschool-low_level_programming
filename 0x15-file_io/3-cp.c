@@ -45,13 +45,13 @@ int file_validation(char **argv, int *fd_from, int *fd_to)
 int main(int argc, char **argv)
 {
 	int fd_from = 0, fd_to = 0, r = 1024;
-	char buf[SIZE] = {0};
+	char buf[1024] = {0};
 
 	if (argc == 3 && file_validation(&argv[1], &fd_from, &fd_to))
 	{
-		while (r == SIZE)
+		while (r == 1024)
 		{
-			r = read(fd_from, buf, SIZE);
+			r = read(fd_from, buf, 1024);
 
 			if (r == -1)
 				print_error("Error: Can't read from file %s\n",
