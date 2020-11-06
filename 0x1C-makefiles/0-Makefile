@@ -1,0 +1,3 @@
+CC=gcc
+holberton: holberton.c main.c
+all: holberton
